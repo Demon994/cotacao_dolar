@@ -12,10 +12,10 @@ O arquivo executável pode ser baixado a partir do seguinte link: [Download](htt
 Antes de executar o script, certifique-se de que você tenha os seguintes pré-requisitos instalados:
 
 - **Python 3.x**: O código é escrito em Python e requer Python 3.x.
-- **Bibliotecas Python**: Você precisa instalar as bibliotecas necessárias. Use o comando abaixo para instalar todas as dependências:
+- **Bibliotecas Python**: Você precisa instalar as bibliotecas necessárias. Instale as dependências usando o arquivo 'requirements.txt':
 
     ```bash
-    pip install selenium pytz python-docx docx2pdf
+    pip install -r requirements.txt
     ```
 
 - **ChromeDriver**: O `selenium` requer o ChromeDriver para interagir com o navegador Google Chrome. Baixe o ChromeDriver compatível com sua versão do Chrome e coloque-o em um diretório incluído no PATH do sistema.
